@@ -60,6 +60,7 @@ What we can do is:
 
 We can duplicate this stack and have another stack called Stack B that looks exactly the same except.
 ![4.PNG]({{site.baseurl}}/_posts/4.PNG)
+
 Whenever you insert an element in the new stack, you insert the new minimum from the previous stack A.
 
 Therefore, Initially you will insert 19 as it is the only element, and then compare 8 and 19,
@@ -77,6 +78,7 @@ So, By using this tradeoff of Space and time, we actually used more space but we
 The code implementation using C++ is given below:
 ![5.PNG]({{site.baseurl}}/_posts/5.PNG)
 ![6.PNG]({{site.baseurl}}/_posts/6.PNG)
+
 
 You can get the code <a href="https://github.com/Shreya869/get_min-Stack-in-O-1-/tree/master
 " target="_top">here</a>
