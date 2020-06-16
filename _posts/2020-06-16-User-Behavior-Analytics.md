@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 This maybe a very big term for starters but the crowd's rage compels you to know more about it.
 
@@ -16,4 +16,3 @@ UBA justifies and stands by the vitality of analysis and how data without contex
 
 #### Written by-
 #### Aishani Pachauri
-
