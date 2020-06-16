@@ -17,7 +17,7 @@ You can either put a new plate on top or remove the top plate.
 
 If you want the plate at the bottom, you have to first remove all the plates on top.
 Such an arrangement is called Last In First Out - the last item that was placed is the first item to go out.
-
+![]({{site.baseurl}}/https://github.com/acmwjuit/blog/blob/gh-pages/img/1.PNG)
 ## Programming Jargons of Stack
 In programming terms, putting an item on top of the stack is called "push" and removing an item is called "pop"
 
