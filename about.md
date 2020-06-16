@@ -3,7 +3,7 @@ layout: page
 title: About Us
 published: true
 ---
-## About
+## About ACM-W
 ACM-W is ACM's Community of Support for Women in Computing. ACM-W supports, celebrates, and advocates internationally for the full engagement of women in all aspects of the computing field. It provides a wide range of programs and services to ACM members and works in the larger community to raise awareness of the opportunities available to women in computer science and advance the contributions of technical women. 
 
 ACM-W also seeks to promote new ways for the next generation of women to face today’s challenges, increase participation of women in senior-level positions at ACM, and provide a platform for sharing resources, ideas and experiences.
