@@ -14,5 +14,5 @@ Aruba,Forcepoint,Dtex and Exabeam are leading solution providers in the market a
 UBA justifies and stands by the vitality of analysis and how data without context is of no use.
 
 
-#### Written by-
+#### Author-
 #### Aishani Pachauri
