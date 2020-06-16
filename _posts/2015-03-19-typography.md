@@ -1,13 +1,13 @@
 ---
 title: Stack operations in constant time O(1)
-
+published: true
 ---
 Go ahead and step into the kitchen. 
 What do you see? 
 Plates, bowls, containers and snacks and so many more delicious delicacies. 
 Look closely.
 You may also see something like this.
-![Test](/blog/img/1.PNG "Test")
+![1.PNG]({{site.baseurl}}/_posts/1.PNG)
 
 Recognize those Plates on top of each other? 
 
@@ -35,7 +35,8 @@ Also needless to say, the topmost element is called the top()
 
 We can implement stacks by using concrete data types called Array  and/or Linked Lists. They are linear data structures. The difference between them has to do with memory allocation.
 
-![Test](/blog/img/2.PNG "Test")
+![2.PNG]({{site.baseurl}}/_posts/2.PNG)
+
 
 -Push(x)
 -Pop()
@@ -45,7 +46,8 @@ Our main contender here will be the getMin() Operation.
 Now, Storing the overall minimum sounds like a good idea. But once we pop an element, how do we find the minimum again in O(1) time?
 
 Let’s look at this example
-![Test](/blog/img/3.PNG "Test")
+![3.PNG]({{site.baseurl}}/_posts/3.PNG)
+
 Top points to 3
 
 Our minima here is 3.
@@ -60,7 +62,7 @@ What we can do is:
 
 
 We can duplicate this stack and have another stack called Stack B that looks exactly the same except.
-![Test](/blog/img/4.PNG "Test")
+![3.PNG]({{site.baseurl}}/_posts/3.PNG)
 Whenever you insert an element in the new stack, you insert the new minimum from the previous stack A.
 
 Therefore, Initially you will insert 19 as it is the only element, and then compare 8 and 19,
@@ -76,8 +78,8 @@ Top of Stack B points to the current minimum element in Stack A.
 So, By using this tradeoff of Space and time, we actually used more space but we were able to solve the entire problem in O(1) time.
 
 The code implementation using C++ is given below:
-![Test](/blog/img/5.PNG "Test")
-![Test](/blog/img/6.PNG "Test")
+![5.PNG]({{site.baseurl}}/_posts/5.PNG)
+![6.PNG]({{site.baseurl}}/_posts/6.PNG)
 
 You can get the code <a href="https://github.com/Shreya869/get_min-Stack-in-O-1-/tree/master
 " target="_top">here</a>
