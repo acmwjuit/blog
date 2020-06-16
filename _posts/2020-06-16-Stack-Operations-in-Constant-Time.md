@@ -81,3 +81,6 @@ The code implementation using C++ is given below:
 
 You can get the code <a href="https://github.com/Shreya869/get_min-Stack-in-O-1-/tree/master
 " target="_top">here</a>
+
+### Written by-
+### Shreya Jayant
