@@ -5,12 +5,7 @@ Go ahead and step into the kitchen.
 What do you see? 
 Plates, bowls, containers and snacks and so many more delicious delicacies. 
 Look closely.
-You may also see something like this.
-![1.PNG]({{site.baseurl}}/_posts/1.PNG)
-![git.jpg]({{site.baseurl}}/_posts/git.jpg)
-
-
-Recognize those Plates on top of each other? 
+You'll definitely find a pile of plates stacked on top of each other.
 This is precisely where the concept of Stack came from. 
 
 Think about the things you can do with such a pile of plates.
@@ -34,10 +29,6 @@ Also needless to say, the topmost element is called the top()
 
 We can implement stacks by using concrete data types called Array  and/or Linked Lists. They are linear data structures. The difference between them has to do with memory allocation.
 
-![2.PNG]({{site.baseurl}}/_posts/2.PNG)
-
-
-
 -Push(x)
 -Pop()
 -top()
@@ -46,7 +37,7 @@ Our main contender here will be the getMin() Operation.
 Now, Storing the overall minimum sounds like a good idea. But once we pop an element, how do we find the minimum again in O(1) time?
 
 Let’s look at this example
-![3.PNG]({{site.baseurl}}/_posts/3.PNG)
+# 19 - 8 - 23 - 5 - 3
 
 
 Top points to 3
@@ -63,7 +54,7 @@ What we can do is:
 
 
 We can duplicate this stack and have another stack called Stack B that looks exactly the same except.
-![4.PNG]({{site.baseurl}}/_posts/4.PNG)
+# 19 - 8 - 8 - 5 - 3
 
 
 Whenever you insert an element in the new stack, you insert the new minimum from the previous stack A.
@@ -79,13 +70,6 @@ So, now you can see that the second stack is telling us the current minimum numb
 Top of Stack B points to the current minimum element in Stack A.
 
 So, By using this tradeoff of Space and time, we actually used more space but we were able to solve the entire problem in O(1) time.
-
-The code implementation using C++ is given below:
-![5.PNG]({{site.baseurl}}/_posts/5.PNG)
-
-![6.PNG]({{site.baseurl}}/_posts/6.PNG)
-
-
 
 You can get the code <a href="https://github.com/Shreya869/get_min-Stack-in-O-1-/tree/master
 " target="_top">here</a>
