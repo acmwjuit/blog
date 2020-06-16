@@ -7,6 +7,7 @@ Plates, bowls, containers and snacks and so many more delicious delicacies.
 Look closely.
 You may also see something like this.
 ![1.PNG]({{site.baseurl}}/_posts/1.PNG)
+![git.jpg]({{site.baseurl}}/_posts/git.jpg)
 
 
 Recognize those Plates on top of each other? 
