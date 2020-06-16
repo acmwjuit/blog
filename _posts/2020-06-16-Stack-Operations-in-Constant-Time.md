@@ -17,7 +17,6 @@ You can either put a new plate on top or remove the top plate.
 
 If you want the plate at the bottom, you have to first remove all the plates on top.
 Such an arrangement is called Last In First Out - the last item that was placed is the first item to go out.
-![]({{site.baseurl}}/https://github.com/acmwjuit/blog/blob/gh-pages/img/1.PNG)
 ## Programming Jargons of Stack
 In programming terms, putting an item on top of the stack is called "push" and removing an item is called "pop"
 
@@ -60,7 +59,7 @@ What we can do is:
 
 
 We can duplicate this stack and have another stack called Stack B that looks exactly the same except.
-![3.PNG]({{site.baseurl}}/_posts/3.PNG)
+![4.PNG]({{site.baseurl}}/_posts/4.PNG)
 Whenever you insert an element in the new stack, you insert the new minimum from the previous stack A.
 
 Therefore, Initially you will insert 19 as it is the only element, and then compare 8 and 19,
