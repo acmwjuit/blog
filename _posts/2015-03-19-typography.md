@@ -10,7 +10,6 @@ You may also see something like this.
 ![1.PNG]({{site.baseurl}}/_posts/1.PNG)
 
 Recognize those Plates on top of each other? 
-
 This is precisely where the concept of Stack came from. 
 
 Think about the things you can do with such a pile of plates.
