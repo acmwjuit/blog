@@ -1,7 +1,6 @@
 /* -- General Layout -- */
 
 /* Navigation */
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 #nav, #nav-left { 
   a {
     display: block;
@@ -106,7 +105,7 @@
 .fixed {
   position: fixed;
   width: 100%;
-  @media (min-width: 940px) {
+  @media (min-width: 760px) {
     position: static;
   }
 }
@@ -155,7 +154,7 @@
 
 #post-page {
   margin-bottom: 1.5em;
-  @media (min-width: 940px) {
+  @media (min-width: 760px) {
       margin-bottom: 1.3334em;
     }
 }
@@ -175,7 +174,7 @@
   line-height: 1.5em; /* 24px/16px */
   margin-bottom: 1.5em; /* 24px/16px */
   font-weight: 200;
-  @media (min-width: 940px) {
+  @media (min-width: 760px) {
     display: block;
     color: lighten($text-color, 25%);
     line-height: 1.3334em; /* 24px/18px */
@@ -193,6 +192,10 @@ img {
      -moz-border-radius: 4px;
       -ms-border-radius: 4px;
           border-radius: 4px;
+	@media (min-width: 940px) {
+    max-width: 400%;
+    max-height: 200px;		
+  }
 }
 
 img[title="ACM Logo"] {
@@ -209,7 +212,7 @@ code {
 .content ul, .content ol {
   line-height: 1.5em; /* 24px/16px */
   padding-left: 1.5em;
-  @media (min-width: 940px) {
+  @media (min-width: 760px) {
     line-height: 1.33334em; /* 24px/18px */
   }
 }
