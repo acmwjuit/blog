@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-## How to prepare for GSoC
-
 [Organisations selected for GSoC 2019](https://summerofcode.withgoogle.com/archive/2019/organizations/) 
 
 These are the organisations which were selected for gsoc 2019. Go through them and find few which you find interesting. Finalise and focus on 1 organisation, keep 1-2 organisations for safety in case your main target organisation isn't selected for GSoC next year.
