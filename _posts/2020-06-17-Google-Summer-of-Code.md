@@ -13,12 +13,9 @@ Usually you have a higher chance of being selected for GSoC if you've already co
                 -a 2018 GSoC-er
               
 
-https://opensource.googleblog.com/2019/12/announcing-google-summer-of-code-2020.html
+[Announcement of GSoC 2020](https://opensource.googleblog.com/2019/12/announcing-google-summer-of-code-2020.html)
 
-This is the official announcement of GSoC 2020. Go through it.
-
-
-The whole process from scratch is summed up in these steps:
+###### The whole process from scratch is summed up in these steps:
 1. Start working with Git and Github and start contributing to open source.
 2. Select organisations based on their projects.
 3. Undersatand the project that you want to work on really well.
